@@ -38,4 +38,6 @@ dependencies {
     implementation("androidx.camera:camera-lifecycle:1.7.0")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
+
+    implementation("com.google.mediapipe:tasks-vision:1.2.3")
 }
