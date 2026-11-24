@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.y22.spatialar"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.y22.spatialar"
@@ -34,7 +34,6 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
-    // CameraX
     implementation("androidx.camera:camera-camera2:1.7.0")
     implementation("androidx.camera:camera-lifecycle:1.7.0")
 
